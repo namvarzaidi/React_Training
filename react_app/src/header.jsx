@@ -7,10 +7,10 @@ const bookCase = () => {
     };
     return (
       <div>  
-         <h1>{book.title}</h1>
-         <h1>{book.author}</h1>
-         <h1>{book.startedReading}</h1>
-         <h1>{book.rating}</h1>
+         <h3>{book.title}</h3>
+         <h3>{book.author}</h3>
+         <h3>{book.startedReading}</h3>
+         <h3>{book.rating}</h3>
       </div>
     );
   };

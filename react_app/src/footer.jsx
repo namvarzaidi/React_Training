@@ -1,11 +1,12 @@
 const bookCaseFooter = () => {
     const book = {
-      contact: "example@qa.com",
-
+      contact: "example@gmail.com",
+      name: "Namvar Zaidi"
     };
     return (
       <div>  
-         <h1>{book.contact}</h1>
+         <h2>Email: {book.contact}</h2>
+         <h3>{book.name}</h3>
 
       </div>
     );
